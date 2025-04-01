@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Agro Pharma</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    
+   <link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/navbar-style.css">
+	<link rel="stylesheet" href="product-div.css" />
+  <link rel="stylesheet" href="../css/cards.css"/>
+	<link rel="stylesheet" href="../css/footer.css"/>
+  <link rel="stylesheet" href="v-cardCont.css"/>
+  <link rel="stylesheet" href="../css/headerWave.css">
+  
+   
+</head>
+<body>
+
+  <!-----Navigation bar start here - ------<link rel="stylesheet" type="text/css" href="css/navbar-style.css">------>
+  <nav class="navbar1">
+		<img class="logo"src="../resource/logo.jpg" style="width:60px; height:60px;">
+		<div class="title"><h4 >Agro Pharma</h4></div>
+		<input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">&#9776;</label>
+        <ul class="nav-links">
+          <li><a href="/index.html" >Home</a></li>
+          <li><a href="/Product/Products.html">Product</a></li>
+          <li><a href="/AgroHomeopathy/AgroHomeopathy.html">Agro Homeopathy</a></li>
+          <li><a href="/Testemonials/Testimonials.html">Testimonials</a></li>
+          <li><a href="/FAQ/FAQ.html">FAQ'S</a></li>
+          <li><a href="/privacy&policy/privacy&policy.html">Privacy & Policy</a></li>
+          <li><a href="/About/AboutUs.html">About Us</a></li>
+          <li>
+            <a href="/myContact/contact.html" class="contact-btn">Contact Us</a>
+        </ul>
+    </nav>
+	<hr>
+    <!---Navigation bar end here -->
+    <!-- Fancy title start-->
+    <div class="fancy-title">
+        <!--Content before waves-->
+        
+        <div class="inner-header flex">
+          <img class="bg-photo" loading="lazy" src="bg-leaf-1.jpg" alt="image"  />
+          <h1 class="page-heading">Your need fulfil here..</h1>
+        </div>
+  
+        <!--Waves Container-->
+        <div>
+          <svg
+            class="waves"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shape-rendering="auto"
+          >
+            <defs>
+              <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+              />
+            </defs>
+            <g class="parallax">
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(240,255,242,0.7"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="3"
+                fill="rgba(240,255,242,0.5)"
+              />
+              <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="5"
+                fill="rgba(240,255,242,0.3)"
+              />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#f0fff2" />
+            </g>
+          </svg>
+        </div>
+        <!--Waves end-->
+      </div>
+      <!--fancy title ends here -->
+
+        <div class="filter-container">
+            <select id="productFilter" class="product-filter" onchange="filterData()">
+                <option value="all">All</option>
+                <option value="Seeds">Seeds</option>
+                <option value="Fertilizers">Fertilizers</option>
+                <option value="Pesticides">Pesticides</option>
+            </select>
+            <input type="search" id="searchInput" class="search-product" placeholder="Search product..." onkeyup="filterData()">
+        </div>
+    </div>
+
+    <!--- Card container start here -->
+    <div class="card-container">
+	
+			
+			<div class="cards" id="cards"></div>
+    </div>	
+
+
+
+
+
+
+
+  
+
+<!--card container end here  ------------------------------------------------------------------------------->
+
+
+
+    <!-- // Scroll Event Listener
+    scrollContainer.addEventListener("scroll", updateActiveDot);
+    
+    // Click Event on Dots (optional)
+    dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+            let productWidth = products[0].offsetWidth + 10; // Include gap
+            scrollContainer.scrollTo({ left: index * productWidth, behavior: "smooth" });
+        });
+    }); -->
+
+<!--card container end here  ------------------------------------------------------------------------------->
+
+
+
+<!-- Footer Section -->
+
+<footer class="footer">
+  <div class="footer-container">
+      <div class="footer-left">
+          <h2>Think Apart <br> <strong>Think Us</strong></h2>
+      </div>
+      <div class="footer-links">
+        <ul>
+          <li><a href="/About/AboutUs.html">About US</a></li>
+          <!-- <li><a href="#">Agro Homeopathy</a></li> -->
+          <li><a href="/Product/Products.html">Our Products</a></li>
+          <li><a href="/Testemonials/Testimonials.html">Testimonials</a></li>
+          <!-- <li><a href="#">Buy Online</a></li> -->
+          <!-- <li><a href="#">Orders</a></li> -->
+      </ul>
+      <ul>
+          <li><a href="/privacy&policy/privacy&policy.html">Privacy Policy</a></li>
+          <!-- <li><a href="#">Return Policy</a></li> -->
+          <!-- <li><a href="#">Shipping Policy</a></li> -->
+          <!-- <li><a href="#">Terms & Conditions</a></li> -->
+          <li><a href="/myContact/contact.html">Contact Us</a></li>
+      </div>
+
+      <div class="footer-contact">
+        <div class="footer-contact-info">
+       <h3>Let’s Connect</h3>
+       <a href="#"><img src="/resource/whatsapp.png">
+       </div>
+        <div class="footer-input">
+            <input type="email" placeholder="Enter your email">
+            <button class="get-started-btn">Get Started</button>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="/resource/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="/resource/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="/resource/linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </div>
+  </div>
+
+  <!-- Partition Line -->
+  <div class="footer-divider"></div>
+
+  <div class="footer-bottom">
+      <p>Copyright &copy; 2025 | Powered by TEAM MANNAKAL</p>
+  </div>
+</footer>
+        <div class="cards" id="cards"></div>
+    </div>
+    <!--- Card container end here -->
+
+    <!--- Footer Section -->
+    <div id="Footer"></div>
+
+<script>
+  function whatsappSend(msg) {
+    
+
+      // Mobile number (without + or leading zeros, only country code and number)
+      let phoneNumber = "918446898397"; // Change this to your desired number
+
+      // Custom message
+      let message = msg;
+
+      // WhatsApp URL
+      let whatsappUrl = "https://wa.me/" + phoneNumber + "?text=" +"I intersted in " +message+" so plz give more information about that product.";
+
+      // Open WhatsApp
+      window.open(whatsappUrl, "_blank");
+  }
+</script>
+<script src="fetchJson.js"></script>
+<script src="../Daynamic.js"></script>
+
+    <script>
+        function whatsappSend(msg) {
+            let phoneNumber = "918446898397";
+            let message = encodeURIComponent(msg); // Encode message for URL
+            let whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}. Please provide more information about this product.`;
+            window.open(whatsappUrl, "_blank");
+        }
+    </script>
+    <script src="fetchJson.js"></script>
+    <script src="../Daynamic.js"></script>
+</body>
+</html>

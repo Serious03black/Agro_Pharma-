@@ -1,0 +1,26 @@
+.title-section {
+    width: 100%;
+    height: fit-content;
+padding: 7px;
+    word-wrap: break-word;
+}
+
+.heading {
+    text-align: left;
+    padding-right: 20px;
+    width: 30%;
+}
+
+
+
+.description {
+
+
+
+    display: inline;
+    padding: 10px;
+    border-left: 4px solid green;
+}
+
+
+@media (max-width:768) {}

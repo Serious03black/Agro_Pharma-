@@ -1,0 +1,143 @@
+/* --------------------- */
+/* Footer Section */
+/* --------------------- */
+.footer {
+  position: relative;
+  background-color: #1e4d2b;
+  color: white;
+  padding: 50px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Footer Left - Text */
+.footer-left h2 {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-left strong {
+  color: yellow;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  gap: 60px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #ffcc00;
+}
+
+/* Footer Contact */
+.footer-contact {
+  text-align: center;
+}
+
+.footer-contact h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Input Box */
+.footer-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.footer-input input {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.get-started-btn {
+  padding: 8px 15px;
+  background-color: #ffcc00;
+  color: #1e4d2b;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #e6b800;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.social-icons img {
+  width: 30px;
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  opacity: 0.8;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+/* Footer Partition Line */
+.footer-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.3); /* Light white line */
+  margin: 30px 0; /* Space above and below */
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 15px;
+  color: rgba(255, 255, 255, 0.7); /* Light white text */
+}
+.footer-contact-info{
+  display: flex;
+  gap: 10px;
+}
+.footer-contact-info img{
+  width: 35px;
+  height: 35px;
+}

@@ -1,0 +1,288 @@
+/* Content properties which should be in grey color */
+.content {
+  font-family: 'Roboto', 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+  color: #808285;
+  line-height: 1.86;
+  font-size: 1em;
+}
+
+/* who we are container also Parent Container for right and left container */
+.who-we-are {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 6.5em 10em;
+  flex-wrap: wrap;
+}
+
+/* Right and Left container */
+#about-us-left-container,
+#about-us-right-container {
+  padding: 0 2em;
+}
+
+#about-us-left-container {
+  width: 40%;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+
+.about-us-right-container {
+  width: 50%;
+}
+
+/* About us Second Container */
+.about-us-second-container {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 4em 0;
+}
+
+/* Child Container for about us Second container */
+.second-child-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* Title for about us second container */
+#second-title {
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+/* Second container content alignment */
+.about-us-second-container .content {
+  max-width: 560px;
+  height: auto;
+  margin: 1em auto;
+}
+
+/* Second container Image alignment */
+.second-container-img img {
+  width: 100%;
+  max-width: 1140px;
+  height: auto;
+  border-radius: 15px;
+  margin: 4.5em auto;
+}
+
+/* About us third container */
+.about-us-third-container {
+  background-color: #fff;
+  text-align: center;
+  padding: 4em 0;
+}
+
+/* Third container Title alignment */
+.about-us-third-container .third-title {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+/* Third container content alignment */
+.about-us-third-container .content {
+  max-width: 570px;
+  height: auto;
+  margin: 2em auto 6em;
+}
+
+/* Our Founder Information container alignment */
+.our-founder-info {
+  display: inline-block;
+  margin: 1em;
+}
+
+/* Founder Card Properties */
+.founder-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  background-color: #317d3f;
+  color: white;
+  max-width: 912px;
+  width: 100%;
+  padding: 2em;
+  line-height: 1.7;
+}
+
+/* Content Property in founder card */
+.left-container {
+  text-align: center;
+  padding: 1em;
+}
+
+/* Founder intro below card */
+.founder-intro {
+  font-size: 1.1em;
+  max-width: 80%;
+  margin: 2em auto;
+  padding-bottom: 3em;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Social Media Links */
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  border-bottom: 2px solid #75c32c;
+  margin: 2em auto;
+  width: fit-content;
+  padding-bottom: 0.5em;
+}
+
+/* Icons Properties for Instagram and Facebook logo */
+.icon svg {
+  height: 2em;
+  width: 2em;
+  fill: #4a4a4a;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon svg:hover {
+  fill: #83c941;
+  cursor: pointer;
+}
+
+/* Fourth Container Properties */
+.about-us-fourth-container {
+  background-color: #317d3f;
+  color: white;
+  text-align: center;
+  padding-top: 3em;
+}
+
+/* Fourth Container Title Properties */
+.about-us-fourth-container p {
+  font-size: 2em;
+  padding: 1em;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  width: 180px;
+  height: 50px;
+}
+
+/* Call Button Properties */
+.call-button {
+  background-color: #ff5722;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* WhatsApp Button Properties */
+.whatsapp-button {
+  background-color: #117303;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+  .who-we-are {
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 2em;
+  }
+
+  #about-us-left-container,
+  .about-us-right-container {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .founder-view {
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    height: auto;
+    padding: 1.5em;
+  }
+
+  .founder-intro {
+    width: 90%;
+    text-align: center;
+  }
+
+  .social-links {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #second-title, 
+  .about-us-third-container .third-title {
+    font-size: 2em;
+  }
+
+  .about-us-second-container .content, 
+  .about-us-third-container .content {
+    width: 90%;
+    height: auto;
+  }
+
+  .founder-view {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .button {
+    width: 160px;
+    height: 45px;
+    font-size: 17px;
+  }
+
+  .about-us-fourth-container p {
+    font-size: 1.8em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .who-we-are {
+    padding: 2em 1em;
+  }
+
+  #second-title, 
+  .about-us-third-container .third-title {
+    font-size: 1.8em;
+  }
+
+  .about-us-second-container .content, 
+  .about-us-third-container .content {
+    width: 100%;
+    padding: 0 1em;
+  }
+
+  .button {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .about-us-fourth-container p {
+    font-size: 1.5em;
+  }
+}
+
+

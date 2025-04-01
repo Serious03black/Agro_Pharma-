@@ -1,0 +1,92 @@
+[
+  {
+    "imgpath": "./H-cardData/product-photo/pestshild.webp",
+    "productCategory": "Pesticides",
+    "productName": "PestShield",
+    "productPrize": 300,
+    "srarrating": 4,
+    "productinfo": "PestShield is an effective pesticide that protects crops <span class='more-text' >from insects and pests, ensuring a healthy harvest.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/HybridMaiz.webp",
+    "productCategory": "Fertilizers",
+    "productName": "FertiBoost",
+    "productPrize": 450,
+    "srarrating": 5,
+    "productinfo": "FertiBoost enhances soil fertility <span class='more-text' >with essential nutrients, promoting plant growth.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/NitroBoost.webp",
+    "productCategory": "Herbicides",
+    "productName": "WeedSafe",
+    "productPrize": 350,
+    "srarrating": 4,
+    "productinfo": "WeedSafe controls unwanted weeds <span class='more-text' >without harming crops, ensuring a weed-free farm.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/product1.webp",
+    "productCategory": "Fertilizers",
+    "productName": "GrowMax",
+    "productPrize": 500,
+    "srarrating": 5,
+    "productinfo": "GrowMax boosts plant growth <span class='more-text' >with organic nutrients and minerals.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/BugFree.webp",
+    "productCategory": "Insecticides",
+    "productName": "InsectAway",
+    "productPrize": 320,
+    "srarrating": 4,
+    "productinfo": "InsectAway effectively eliminates harmful insects <span class='more-text' >from crops without affecting plant health.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/product12.webp",
+    "productCategory": "Growth Stimulants",
+    "productName": "GreenZyme",
+    "productPrize": 480,
+    "srarrating": 5,
+    "productinfo": "GreenZyme is a bio-stimulant <span class='more-text' >that accelerates plant metabolism and yield.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/product11.webp",
+    "productCategory": "Pesticides",
+    "productName": "FarmGuard",
+    "productPrize": 280,
+    "srarrating": 4,
+    "productinfo": "FarmGuard provides long-lasting protection <span class='more-text' >against common pests and crop diseases.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/product10.webp",
+    "productCategory": "Soil Conditioners",
+    "productName": "SoilCare",
+    "productPrize": 400,
+    "srarrating": 5,
+    "productinfo": "SoilCare improves soil structure <span class='more-text' >and enhances root development.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/product9.webp",
+    "productCategory": "Yield Enhancers",
+    "productName": "HarvestMax",
+    "productPrize": 530,
+    "srarrating": 5,
+    "productinfo": "HarvestMax increases crop yield <span class='more-text' >with a blend of essential nutrients.</span>",
+    "addtocart": 1
+  },
+  {
+    "imgpath": "./H-cardData/product-photo/product8.webp",
+    "productCategory": "Pesticides",
+    "productName": "ProtectCrop",
+    "productPrize": 310,
+    "srarrating": 4,
+    "productinfo": "ProtectCrop safeguards your fields <span class='more-text' >against insects and fungal infections.</span>",
+    "addtocart": 1
+  }
+]
