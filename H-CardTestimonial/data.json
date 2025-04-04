@@ -18,13 +18,13 @@
     "reply": "It's okay, but I expected more. <span class='more-text'>The results are decent but not outstanding.</span>"
   },
   {
-    "imgpath": "./H-CardTestimonial/customer-photo/profile.webp",
+    "imgpath": "../Testemonials/profile5.jpg",
     "customerName": "Neha Singh",
     "starRating": 5,
     "reply": "Highly recommended! <span class='more-text'>This has become a must-have for my garden.</span>"
   },
   {
-    "imgpath": "./H-CardTestimonial/customer-photo/profile.webp",
+    "imgpath": "../Testemonials/profile6.png",
     "customerName": "Rahul Mehta",
     "starRating": 4,
     "reply": "Good quality and effective. <span class='more-text'>Would buy again for sure.</span>"
