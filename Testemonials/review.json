@@ -1,7 +1,7 @@
 [
     {
         "imgpath": "./profile1.jpg",
-        "clientName": "Ms. Priya Sharma",
+        "clientName": "Mr. Priyesh Sharma",
         "srarrating": 4,
         "reviewText": "Good quality and easy to use. I found this product quite helpful, but the delivery took longer than expected. Overall, a decent buy! - Priya S."
     },
@@ -13,7 +13,7 @@
     },
     {
         "imgpath": "./profile3.jpg",
-        "clientName": "Ms. Rina Das",
+        "clientName": "Mr. Rites Das",
         "srarrating": 3,
         "reviewText": "Average product. It does the job but nothing extraordinary. I was expecting better quality for the price. - Rina D."
     },
@@ -37,13 +37,13 @@
     },
     {
         "imgpath": "./profile7.jpg",
-        "clientName": "Ms. Komal Rathi",
+        "clientName": "Mr. Kumar Rathi",
         "srarrating": 5,
         "reviewText": "Absolutely love it! This product has been a game-changer for me. The quality is top-notch, and I have had no issues so far. - Komal R."
     },
     {
         "imgpath": "./profile8.jpg",
-        "clientName": "Mr. Rajesh Gupta",
+        "clientName": "Ms. Rajani Gupta",
         "srarrating": 3,
         "reviewText": "Decent but not exceptional. It works as intended, but I feel like there are better options in the market at this price point. - Rajesh G."
     },
