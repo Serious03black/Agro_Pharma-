@@ -1,12 +1,13 @@
 /* Products Section */
 .products {
-    background: #f0faeb; /* Light Green Background */
-    padding: 60px 20px;
+    background: #f0faeb; 
+    bottom: 100px;
+    /* padding:  ; */
     position: relative;
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 1072px;
     margin: 0 auto;
     overflow: hidden;
 }

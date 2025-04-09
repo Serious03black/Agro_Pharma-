@@ -10,9 +10,9 @@
 
 .cards {
 
-  width: 100%;
+  /* width: 100%; */
   
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   
   padding: 5px;
   white-space: nowrap;
@@ -31,10 +31,10 @@
 }
 
 .card {
-    width: 300px;
+    /* width: 250px; */
 
-    background-color: #ffffff;
-    border: 1px solid #ddd;
+    /* background-color: #ffffff; */
+    /* border: 1px solid #ddd; */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px 5px 10px 5px;
