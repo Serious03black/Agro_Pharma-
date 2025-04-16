@@ -1,188 +1,153 @@
-/* Navbar */
-.navbar1 {
-    width: 100%;
-    color: black;
-    align-items: center;
-    height: 4.8rem;
-    display: flex;
-    box-sizing: border-box;
-    background-color: white;
-    position: inherit;
-}
-
-/* Logo */
-.logo {
- width: 50px;
- margin-right: 5px;
- margin-left: 10px;
-}
-
-/* Title */
-.title {
-    width: 300px;
-    margin-right: 50px;
-    font-size: 1.3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: hsl(164.57deg 46.67% 14.71%);
-   
-   
-}
-
-/* Navigation Links */
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin-left: auto;
-    margin-right: 15px;
-}
-
-
-.nav-links li {
-    margin: 0;
-   
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: black;
-    padding: 5px 14px;
-    display: block;
-    white-space: nowrap;
-    text-align: center;
-    position: relative;
-    padding-bottom: 5px;
-}
-
-
-
- /* Line effect */
- .nav-links a::after {
-    
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 100%;
-    height: 2px;
-    background: rgb(29 161 242);
-    transform: scaleX(0);
-    transition: transform 0.2s ease-in-out;
-}
-
-.nav-links a:hover::after {
-   
-    transform: scaleX(1);
-}
-.nav-links a:hover{
-    color:rgb(29 161 242);
-}
-.nav-links a.active{
-
-  
-   
-    text-decoration: none;
-    padding: 5px 14px;
-    display: block;
-    width: auto;
-    color: rgb(29 161 242);
-    text-align: center;
-   
-    
-
-}
-
-/* Contact Button */
-.contact-btn {
-    display: inline-block;
-    padding: 12px 24px; /* Adjust padding for a rectangular shape */
-    background-color: #6ef98e; /* Green background */
-    color: white; /* White text */
-    border-radius: 0; /* Remove rounded corners to make it fully rectangular */
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease-in-out;
-    border: none; /* Ensure no border is applied */
-    font-size: 16px; /* Adjust font size for readability */
-    text-align: center;
-}
-.contact-btn:hover {
-    background-color: #218838; /* Slightly darker green on hover */
-}
-
-#menu-toggle{
-    display: none;
-}
-.hamburger{
-    display: none;
-}
-
-/* Mobile Styles */
-@media (max-width: 768px) {
- 
-    .logo{
-        float: left;
-        flex: 10%;
+    /* Navbar container */
+    .navbar1 {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+        background-color: #ffffff;
+        padding: 15px 30px;
+        /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+        font-family: Arial, sans-serif;
+        position: relative;
+        /* min-height: 80px; Ensure enough height for button at bottom */
     }
-    .title {
-        float: left;
-        flex: 70%;
+
+    /* Logo and Title container */
+    .brand {
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    /* Logo styling */
+    .logo {
+        width: 60px;
+        height: 60px;
+        /* margin-left: 0px; */
+        margin-right: 10px; 
+    }
+
+    /* Title styling */
+    .title h4 {
+        align-items: center;
         text-align: center;
-        margin-left: 0;
-        top: 10px;
+        /* margin-top: 10px; */
+        /* margin: 0; */
+        font-size: 24px;
+        color: #2e7d32;
+        font-weight: 600;
+        letter-spacing: 0.5px;
     }
 
-    .nav-links {
+    /* Hamburger menu */
+    #menu-toggle {
         display: none;
-        flex-direction: column;
-        width: 100%;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background: #333;
-    }
-
-    .nav-links li {
-        text-align: center;
-        padding: 10px;
     }
 
     .hamburger {
-        display: block;
-        margin-left: auto;
-       
+        font-size: 28px;
+        cursor: pointer;
+        color: #2e7d32;
+        display: none;
     }
 
-    /* Toggle Menu */
-    #menu-toggle:checked + .hamburger + .nav-links {
+    /* Navigation links */
+    .nav-links {
         display: flex;
-        z-index: 50;
-        top: 80px;
-        background-color: green;
+        list-style: none;
         text-align: center;
-        gap: 2px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        /* margin-top: 20px; */
+        gap: 10px;
+        margin-left: 500px;
+        /* flex-grow: 1; */
+    }
+
+    .nav-links li {
+        margin-left: 25px;
     }
 
     .nav-links a {
         text-decoration: none;
-        color: black;
-        padding: 10px 14px;
-        display: block;
-        border: 3px solid green;
-        text-align: center;
-        width: 100%;
+        color: #2e7d32;
+        font-size: 16px;
+        font-weight: 500;
+        /* padding: 5px 10px; */
+        transition: color 0.3s;
     }
 
     .nav-links a:hover {
-        color: white;
-        text-decoration: none;
-        padding: 10px 14px;
-        display: block;
-        width: 100%;
-        text-align: center;
+        color: #1b5e20;
     }
-}
 
+    .nav-links a.active {
+        color: #1b5e20;
+        border-bottom: 2px solid #2e7d32;
+    }
 
+    /* Contact button */
+    .contact-btn {
+        background-color: #2e7d32;
+        color: white !important;
+        padding: 8px 18px;
+        border-radius: 2px; /* 2px rounded corners */
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 20px;
+        transition: background-color 0.3s;
+        align-self: flex-end; /* Align button to the bottom right */
+        /* margin-top: auto; Push button to the bottom */
+    }
 
+    .contact-btn:hover {
+        background-color: #1b5e20;
+    }
 
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .navbar1 {
+            padding: 15px 20px;
+        }
 
+        .brand {
+            margin-bottom: 5px;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        .nav-links {
+            display: none;
+            position: absolute;
+            top: 70px;
+            right: 20px;
+            background-color: #ffffff;
+            flex-direction: column;
+            padding: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 200px;
+        }
+
+        .nav-links.active {
+            display: flex;
+        }
+
+        .nav-links li {
+            margin: 10px 0;
+        }
+
+        #menu-toggle:checked ~ .nav-links {
+            display: flex;
+        }
+
+        .contact-btn {
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;
+        }
+    }

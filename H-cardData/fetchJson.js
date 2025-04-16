@@ -35,7 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
                   <button class="read-more-button" onclick="toggleText(this)">Read More</button>
               </p>
               <div class="buttons">
-                  <button class="add-to-cart">Add to cart</button>
                   <button class="buy-now">Buy now</button>
               </div>
           `;
@@ -58,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Scroll to the corresponding card when clicking a dot
   function scrollToCard(index) {
       const cardWidth = document.querySelector(".card").offsetWidth;
-      const scrollPosition = index * (cardWidth + 20); // Adjust for gap
+      const scrollPosition = index * (cardWidth+20); // Adjust for gap
       container.scrollTo({ left: scrollPosition, behavior: "smooth" });
   }
 

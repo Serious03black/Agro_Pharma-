@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Scroll to the corresponding card when clicking a dot
   function scrollToCard(index) {
       const cardWidth = document.querySelector(".card").offsetWidth;
-      const scrollPosition = index * (cardWidth + 10); // Adjust for gap
+      const scrollPosition = index * (cardWidth + 65); // Adjust for gap
       container.scrollTo({ left: scrollPosition, behavior: "smooth" });
   }
 

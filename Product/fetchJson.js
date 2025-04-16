@@ -46,7 +46,7 @@ function displayData(users) {
                       <p class="card-text">${user.productinfo}</p>
 
                       <div class="card-actions">
-                        <button class="btn add-to-cart">Add to cart ${user.addtocart}</button><button class="btn" onclick="whatsappSend('${user.productName}')">Buy now</button>
+                        <button class="btn" onclick="whatsappSend('${user.productName}')">Buy now</button>
                       </div>
                     </div>
       `;
@@ -72,8 +72,6 @@ function displayData(users) {
   searchBox.addEventListener('input', applyFilters);
   filterBox.addEventListener('change', applyFilters);
 }
-  
-
   fetchProduct();
 });
 
