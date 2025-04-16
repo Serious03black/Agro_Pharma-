@@ -1,24 +1,92 @@
-
-*{
-  margin: 0px;
-  padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 *::selection {
-  background-color: #47cd4e;
-  color: black;
   background-color: #F2FBDC;
+  color: black;
 }
+
 body {
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #f0fff2;
- 
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
 
+/* Mobile-first responsive base */
+html {
+  font-size: 16px;
+}
 
+/* Responsive typography */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Touch target sizing for mobile */
+a, button, input[type="submit"], input[type="button"] {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Improved mobile scrolling */
+@media (max-width: 768px) {
+  html {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  body {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+/* Prevent long words from breaking layout */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Responsive media */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile form improvements */
+input, textarea, select {
+  font-size: 16px; /* Prevent zooming on focus in iOS */
+}
+
+@media (max-width: 768px) {
+  input, textarea, select {
+    font-size: 14px;
+  }
+}
+
+/* Remove default touch callout */
+a {
+  -webkit-touch-callout: none;
+}
+
+/* Disable pull-to-refresh on mobile (optional) */
+body {
+  overscroll-behavior-y: contain;
 }
